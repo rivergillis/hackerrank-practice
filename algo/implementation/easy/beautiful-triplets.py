@@ -23,4 +23,6 @@ for i in range(len(a)):
         if index(a, a_k) > j:
             total += 1
 
+# O(nlogn)
+
 print(total)
